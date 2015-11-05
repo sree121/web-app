@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="no-js" ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/global.css">
+        <script src="lib/angular.min.js"></script>
+        <script src="lib/angular-route.min.js"></script>
+        <script src="lib/source.js"></script>
+    </head>
+    <body>
+        <header>
+        <div class="wrapper">
+            <div class="logo">
+            <h1>Sreedhar</h1>
+            <p>Front End Developer</p>
+            </div>
+            <nav class="main-menu">  
+            <ul>
+                <li>
+                    <a href="#">home</a>
+                    <a href="#/resume">resume</a>
+                    <a href="#/contact">contact</a>
+                </li>
+            </ul>
+            </nav>
+            </div>
+        </header>
+        <aside>
+           
+        </aside>
+       
+       <div class="wrapper">
+         <div class="profile-pic">
+                 <img  id="logo" src="images/logo.jpg">
+            </div>
+        <div class="container">
+        <div ng-view></div>
+        </div>
+        </div>
+
+<footer>
+    <div class="border"></div>
+    <div class="wrapper">
+
+        <div class="contact">
+            <h2 class="title">Contact me</h2>
+            <p>mob:9035484859</p>
+        </div>
+
+        <div class="email">
+                <h2 class="title">Email</h2>
+                <p>sreedharatrs@gmail.com</p>
+        </div>
+          
+          <div class="social">
+                <h2 class="title">Follow me</h2>
+                        <li class="linkedin"><a target="_blank" href="    https://in.linkedin.com/pub/sreedhara-t-r/78/154/764">LinkedIn</a></li>
+                        <li class="git"><a target="_blank" href="https://github.com/sree121">Github</a></li>
+            </div>
+           <div class="copyright">
+                <h2 class="title">@sree121</h2>
+                <p>Hosted at github pages</p>
+        </div>
+               
+    </div>
+</footer>
+<a href="tel:9035484859"class="phone-icon"></a>
+</body>
+
+</html>

@@ -1,0 +1,345 @@
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+} 
+
+body{
+ *background-color:#EAE5E5;
+ font-family: sans-serif;
+ font-size: 14px;   
+}
+.wrapper {
+    margin: auto;
+    width: 960px;
+}
+body img{
+  *width: 150px;
+    *height: auto;
+    
+}
+a::after, a:hover, a:focus {
+    border: medium none;
+    outline: none;
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+.container {
+    float: right;
+    width: 60%;
+}
+.logo h1 {
+    color: #801e1e;
+}
+
+.profile-pic {
+    padding-top: 30px;
+    width: 40%;
+}
+
+.profile-pic img{
+    border-radius: 50%;
+    height: 250px !important;
+    width: 250px !important;
+    cursor: pointer;
+     transition: all 0.2s ease-in-out 0.2s;
+}
+.profile-pic img:hover{
+ transition: all 0.2s ease-in-out 0.2s;
+    border: 5px solid #153900;
+}
+.logo p, .logo h1 {
+    margin: 0;
+}
+#front-table td {
+    padding: 0 33px;
+}
+.container h1 {
+    font-family: verdana;
+}
+
+/*meu styles*/
+
+
+.main-menu ul {
+    padding: 0;
+}
+.main-menu li {
+    display: block;
+    list-style: outside none none;
+}
+header {
+     padding-top: 20px;
+    clear: both;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 900px;
+}
+nav.main-menu {
+    clear: right;
+    float: right;
+    width: 600px;
+}
+.logo {
+    float: left;
+    padding-left: 40px;
+    text-align: left;
+    width: 37%;
+}
+.profile-pic {
+    padding-top: 30px;
+    text-align: left;
+    width: 40%;
+     float: left;
+      margin-bottom: 15px;
+}
+.main-menu li a {
+    color: black;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: normal;
+    margin-right: 10px;
+    overflow: hidden;
+    padding: 0 15px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.main-menu li a:hover::after {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+}
+.main-menu li a::after {
+    background-color: red;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    transform: scale(0);
+    transition: all 0.2s ease-in-out 0.2s;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.contact-inner h1 {
+    color: #8b1a1a;
+}
+.contact-inner p {
+    color: black;
+}
+.contact-inner {
+    border: 1px solid #ccc;
+    display: block;
+    overflow: hidden;
+    padding: 20px;
+    width: 100%;
+}
+.contact-inner {
+    background-color: white;
+    text-align: center;
+}
+.contact-inner p, .contact-inner h1 {
+    margin-top: 0;
+}
+.contact-inner h1:first-child {
+    border-bottom: 1px solid #8b1a1a;
+}
+table, td, tr {
+    padding: 11px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*Footer regions*/
+
+footer {
+    background-color: #ff0000;
+    color: white;
+    overflow: hidden;
+    clear: both;
+    height: 150px;
+}
+footer .title {
+    padding: 10px 0;
+    font-weight: normal;
+}
+footer .wrapper {
+    margin-top: -65px;
+}
+footer .border {
+    background-color: #d60202;
+    height: 50px;
+}
+footer .wrapper div {
+    float: left;
+    width: 25%;
+}
+.social li {
+    display: inline;
+    list-style: outside none none;
+}
+.social li a {
+    background-size: 100% auto;
+    border-radius: 3px;
+    display: block;
+    float: left;
+    height: 26px;
+    margin: 2px 5px;
+    text-indent: -10000px;
+    width: 30px;
+}
+.social li.tweet a {
+    background: rgba(0, 0, 0, 0) url("../images/tweet.png") no-repeat scroll 0 0;
+}
+.social li.linkedin a {
+    background: rgba(0, 0, 0, 0) url("../images/linkedin.png") no-repeat scroll 0 0;
+}
+.social li.git a {
+    background: rgba(0, 0, 0, 0) url("../images/github.png") no-repeat scroll 0 0;
+}
+
+.resume h2 {
+    border-bottom: 1px solid #801e1e;
+    color: #801e1e;
+    font-family: verdana;
+}
+.resume div {
+    border: 1px solid #ccc;
+    box-shadow: 1px 2px 2px black;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+.contact-inner {
+    border: 1px solid #ccc;
+    box-shadow: 1px 2px 2px black;
+    display: block;
+    overflow: hidden;
+    padding: 20px;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 270px){
+    .profile-pic img {
+    border-radius: 0;
+    height: auto !important;
+    width: 100% !important;
+   }
+}
+@media only screen and (max-width: 1024px)
+{
+    .wrapper{
+        width: 100%;
+    }
+.container h1 {
+    margin-bottom: 0;
+    text-align: center;
+}
+.resume h2 {
+    text-align: center;
+}
+.contact-inner h1 {
+    font-size: 16px;
+}
+.contact-inner {
+    margin-bottom: 10px;
+}
+.logo {
+    float: none !important;
+    text-align: center;
+    width: 100%;
+}
+header {
+    width: 100%;
+}
+.container, .profile-pic {
+    clear: both;
+    float: none;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.phone-icon {
+      background-color: green;
+    background-image: url("../images/index.png");
+    background-size: contain;
+    border-radius: 50%;
+    height: 50px;
+    left: 50%;
+    position: fixed;
+    bottom: 10%;
+    transform: translate(-50%, 50%);
+    
+    width: 50px;
+}
+nav {
+    width: 100% !important;
+}
+.main-menu li a {
+    display: inline !important;
+    padding: 0 4px;
+}
+nav {
+    text-align: center;
+}
+.logo {
+    padding: 0;
+}
+.profile-pic {
+    text-align: center;
+}
+#front-table {
+    display: none;
+}
+.contact, .email {
+    display: none;
+}
+footer .wrapper div {
+    padding:0 10px;
+    width: 50%;
+}
+}
